@@ -76,16 +76,28 @@
       <div class="missile">
         <img src="src/img/missile.png" id="missile">
       </div>
+<div class="footer">
+      <button class="launchbtn btn btn-dark" onclick="missileUdao();">Launch Now</button>
 
-
-
+</div>
     <script> 
-
-function changeImage(img, n)
+var no = 0;
+function changeFunction(img, n)
 {
-var img = document.getElementById("missile");
-img.src="src/img/"+img;
+console.log(img);
+no = n;
+var img1 = document.getElementById("missile");
+var url = "src/img/"+ img ;
+console.log(url);
+img1.src= url;
 return false;
+
+}
+function missileUdao(){
+    if(){
+        window.location.replace("l1.html");
+    }
+    window.location.replace("http://www.w3schools.com");
 }
 
 
