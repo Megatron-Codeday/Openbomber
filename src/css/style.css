@@ -50,3 +50,16 @@
 .missileBanao{
     background-color: #000;
 }
+
+
+
+.footer{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      padding: 10px;
+}
