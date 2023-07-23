@@ -33,7 +33,7 @@
 }
 
 
-a{
+.a{
     background-color: rgb(255, 100, 126);
     text-decoration: none;
     
@@ -46,4 +46,7 @@ a{
     left: 40%;
     top: 20%;
     right: 20%;
+}
+.missileBanao{
+    background-color: #000;
 }
