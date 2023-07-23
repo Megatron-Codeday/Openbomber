@@ -28,9 +28,9 @@
                         <li>
                             <div id="bodyType" class="collapse">
                                         <ul>
-                                           <li> <button class="mb-0 ml-5 btn btn-dark">Body 1</button></li>
-                                           <li> <button class="mb-0 ml-5 btn btn-dark">Body 1</button></li>
-                                           <li> <button class="mb-0 ml-5 btn btn-dark">Body 1</button></li>
+                                           <li> <button class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('b1.png', 10);">Body 1</button></li>
+                                           <li> <button class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('b2.png', 20);">Body 1</button></li>
+                                           <li> <button class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('l1.png', 30);">Body 1</button></li>
 
                                            
                                             </ul>
@@ -46,9 +46,9 @@
                     <li>
                         <div id="Explosives" class="collapse">
                                     <ul>
-                                       <li> <button id="bam1" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('b1.png', 10);">Chhota Explosive</button></li>
-                                       <li> <button id="bam2" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('b2.png', 20);">Kaam Chalau Explosive</button></li>
-                                       <li> <button id="bam3" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('b3.png', 30);">Bada Explosive</button></li>
+                                       <li> <button id="bam1" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('e1.png', 10);">Chhota Explosive</button></li>
+                                       <li> <button id="bam2" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('e2.png', 20);">Kaam Chalau Explosive</button></li>
+                                       <li> <button id="bam3" class="mb-0 ml-5 btn btn-dark" onclick="changeFunction('e3.png', 30);">Bada Explosive</button></li>
 
                                        
                                         </ul>
@@ -74,5 +74,20 @@
       <div class="missile">
         <img src="src/img/missile.png" id="missile">
       </div>
+
+
+
+    <script> 
+
+function changeImage(img, n)
+{
+var img = document.getElementById("missile");
+img.src="src/img/"+img;
+return false;
+}
+
+
+</script>
+
 </body>
 </html>
